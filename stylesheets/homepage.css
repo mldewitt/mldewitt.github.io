@@ -1,0 +1,59 @@
+body {
+background-image:  url(../images/Stadium.jpg); 
+}
+
+#wrapper {width:100%;margin:auto;text-align: center}
+#newbox {background-color: black; opacity: .5; padding-top: 30px; padding-bottom: 30px;}
+
+h1 {
+  color: pink; 
+  font-family: 'Open Sans Condensed', sans-serif; 
+  font-size: 12pt;
+  display:inline;
+}
+
+h2 {color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 32pt;
+  line-height: 1px;
+
+}
+
+h3 {color: white; font-style: italic;
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 1px; 
+}
+
+h4 {color: white; font-style: bold;
+  font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+h6 {color: white; font-style: bold;
+  font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+li {color: white;
+	font-family: 'Open Sans Condensed', sans-serif; 
+  font-size: 12pt;
+  list-style-type: none;
+  margin-left:-40px; height: 20px;
+}
+
+table {padding-top: 10px;
+  padding-bottom: 10px; color: white; 
+  font-family: 'Open Sans Condensed', sans-serif; 
+  font-size: 12pt;
+margin: auto;}
+
+#signature {text-align:right;float:right;font-family: 'Open Sans Condensed', sans-serif; 
+  font-size: 12pt;color:white;}
+
+td {border-left: solid; border-color: white; width: 140px;}
+
+[class^="icon-"], [class*=" icon-"]{
+    background:none!important;
+}
+
+.btn [class^="icon-"], .btn [class*=" icon-"] {
+    line-height: 1.3em;
+}
