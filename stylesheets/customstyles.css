@@ -1,21 +1,20 @@
-body {
-background-image:  url(../images/Stadium.jpg); 
-}
+body {background-image:  url(../images/Stadium.jpg); }
 
 #wrapper {width:100%;margin:auto;text-align: center}
 #newbox {background-color: black; opacity: .5; padding-top: 30px; padding-bottom: 30px; min-width: 25% !important;}
+#socialmedia {text-align:center;margin-top:20px; right:2px; color: white;}
 
-.navbar {
-   background-color: transparent;
-   background: transparent;
-   border-style:none; color: white; font-size: 28px;
-}
+.navbar { background-color: transparent; background: transparent; border-style:none; color: white; font-size: 28px;}
 .navbar-nav {width:100%;padding-top:28px;}
 .submenuheader {color: black; font-size: 20px; background: transparent;background-color: transparent;}
 .menuheader {background-color: transparent !important; background: transparent; color:white !important; font-size: 16px;}
 .rightborder {border-right: solid; border-color: white; border-width: 3px;}
 .btn-success {border-style:none;}
 .btn-success:hover {background-color:pink !important;}
+.namestyle {color: white; font-family: 'Raleway', sans-serif; font-size: 40pt; line-height: 60px; text-align: center; padding-bottom: 2px;}
+.col-sm-12 {color: black;}
+.form-group {color: pink;font-size: 18px; font-family: 'Open Sans Condensed', sans-serif;}
+
 
 h1 {
   color: pink; 
@@ -24,13 +23,9 @@ h1 {
   display:inline;
 }
 
-.namestyle {color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 40pt;
-  line-height: 60px;
-  text-align: center;
-  padding-bottom: 2px;
 
+h2 {color: white; font-size: 18px;
+  font-family: 'Open Sans Condensed', sans-serif; text-align: center; 
 }
 
 h3 {color: white; font-style: italic;
@@ -46,8 +41,18 @@ h4 {color: white; font-style: bold;
   padding-bottom: 50px;
 }
 
+h5 {
+  color: pink; 
+  font-family: 'Open Sans Condensed', sans-serif; 
+  font-size: 22pt;
+  text-align: center;
+}
+
 h6 {color: white; font-style: bold;
   font-family: 'Open Sans Condensed', sans-serif; 
+}
+ {color: white; font-size: 14px;
+  font-family: 'Open Sans Condensed', sans-serif; text-align: center; 
 }
 
 li {color: white;
@@ -63,10 +68,5 @@ table {padding-top: 10px;
   font-size: 12pt;
 margin: auto;}
 
-#socialmedia {text-align:center;margin-top:20px; right:2px; color: white;}
-.col-sm-12 {color: black;}
-
-###signature {text-align:right;float:right;font-family: 'Open Sans Condensed', sans-serif; 
-  font-size: 12pt;color:white;}
-
-td {border-left: solid; border-color: white; width: 140px;}
+td {border-left: solid; border-color: white; width: 140px;
+}

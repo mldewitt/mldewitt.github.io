@@ -2,28 +2,69 @@
 <html>
 
 <head>
-  <title>January Movie List</title>
+  <title>Movie Marathon</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="stylesheets/customstyles.css">
 </head>
 
 <body>
-  <div id="wrapper">
-    <h1>January Movie Marathon</h1>
+  <nav class="navbar navbar-default col-md-12">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
 
-    <h2>A Brief Explanation Behind Movie Marathon</h2>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav"> 
+          <li class="active col-md-3"><a href="index.html" class="menuheader rightborder"> HOME <span class="sr-only">(current)</span></a></li>
+          <li class="dropdown col-md-3">
+            <a href="#" class="dropdown-toggle menuheader rightborder" data-toggle="dropdown" role="button" aria-expanded="false"> 
+            <i class="fa fa-folder"></i> WORK <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="resume.html">Resume</a></li> 
+              <li><a href="cliqthru.html">CliqThru!</a></li>
+            </ul>
+          </li>
+          <li class="dropdown col-md-3">
+            <a href="#" class="dropdown-toggle menuheader rightborder" data-toggle="dropdown" role="button" aria-expanded="false">
+            <i class="fa fa-coffee"></i> PLAY <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="movies.html">Movie Marathon</a></li>
+              <li><a href="favs.html">Favs and Recos</a></li>
+            </ul>
+          </li>
+          <li class="col-md-3"><a href="contact.html" class="menuheader btn btn-sm btn-success">
+          <i class="fa fa-envelope"></i>   CONTACT </a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="row">
+    <div id="newbox" class="col-md-8 col-md-offset-2">
+    <h5>A Brief Explanation Behind Movie Marathon</h5>
    
     <section>
-      <p>A tradition my husband and <a href="index.html">I (More About Me Here)</a> started to attack our infinite lists of movies we wanted to see. Three rules:</p>
-      <ul>
-        <li>Eight movies. Four from me, four from him, viewed in order of release. All eight must be new to us both. You choose it, you source it.</li>
-        <li>Each film has 20 minutes to prove its worth. If it’s not promising by then, we move on.</li>
-        <li>One person tackles lunch, the other dinner.</li>
-      </ul>
+      <h2>It's a tradition my husband and I started to attack the infinite lists of movies we wanted to see. </h2>
+   
     </section>
     <section>
-      <h4>This Month's List</h4>
       <ul>
+        <li style="text-decoration:underline">THIS MONTH</li>
         <li><a href="http://www.imdb.com/title/tt0058946/">The Battle of Algiers</a>, 1966, 125 minutes</li>
         <li><a href="http://www.imdb.com/title/tt0150662/">Show Me Love</a>, 1998, 89 minutes</li>
         <li><a href="http://www.imdb.com/title/tt0984130/">Miao, Miao</a>, 2008, 83 minutes</li>
@@ -32,9 +73,18 @@
         <li><a href="http://www.imdb.com/title/tt1340800//">Tinker, Tailor, Soldier, Spy</a>, 2011, 127 minutes</li>
         <li><a href="http://www.imdb.com/title/tt2215077/">Half of a Yellow Sun</a>, 2013, 113 minutes</li>
         <li><a href="http://www.imdb.com/title/tt2364975/">We Are the Best</a>, 2013, 102 minutes</li>
-    
       </ul>
     </section>
+
+       <h6> ***THREE RULES: <br /> 1) Eight unseen movies. Four from me, four from him. <br /> 2) Films are viewed in order of release. Each film has 20 minutes to prove its worth. If it’s not promising by then, we move on. <br /> 3) One person tackles lunch, the other dinner.</h6>
   </div>
+  </div>
+   <div class="row">
+    <div id="socialmedia" class="col-md-12">
+        <i class="fa fa-twitter-square fa-3x"></i>
+        <i class="fa fa-tumblr-square fa-3x"></i>
+        <i class="fa fa-linkedin-square fa-3x"></i>
+    </div>
+  </div>  
 </body>
 </html>
