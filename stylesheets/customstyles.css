@@ -1,20 +1,29 @@
 body {background-image:  url(../images/Stadium.jpg); }
 
 #wrapper {width:100%;margin:auto;text-align: center}
-#newbox {background-color: black; opacity: .5; padding-top: 30px; padding-bottom: 30px; min-width: 25% !important;}
+#newbox {background-color: rgba(0,0,0,0.5); padding-top: 30px; padding-bottom: 30px; min-width: 25% !important;}
 #socialmedia {text-align:center;margin-top:20px; right:2px; color: white;}
 
 .navbar { background-color: transparent; background: transparent; border-style:none; color: white; font-size: 28px;}
 .navbar-nav {width:100%;padding-top:28px;}
 .submenuheader {color: black; font-size: 20px; background: transparent;background-color: transparent;}
 .menuheader {background-color: transparent !important; background: transparent; color:white !important; font-size: 16px;}
+.btn-success-active {border-style:none;}
+.btn-success-inactive {border-style:none;}
+.btn-success-inactive:hover {background-color:#330033 !important;border-color:white;}
+.btn-success-active:hover {background-color:transparent;border-color:white;cursor:default;}
 .rightborder {border-right: solid; border-color: white; border-width: 3px;}
-.btn-success {border-style:none;}
-.btn-success:hover {background-color:pink !important;}
 .namestyle {color: white; font-family: 'Raleway', sans-serif; font-size: 40pt; line-height: 60px; text-align: center; padding-bottom: 2px;}
 .col-sm-12 {color: black;}
 .form-group {color: pink;font-size: 18px; font-family: 'Open Sans Condensed', sans-serif;}
 
+.panel-collapse {background-color: black; color: white; opacity: .8; font-family: 'Open Sans Condensed', sans-serif;}
+
+#headingOne {background-color: #993366; height: 40px;}
+#headingTwo {background-color: #da6a6c; height: 40px;}
+#headingThree {background-color: #ffa07e; height: 40px;}
+#headingFour {background-color: #febd8c; height: 40px;}
+#headingFive {background-color: #669999; height: 40px;}
 
 h1 {
   color: pink; 
@@ -70,3 +79,9 @@ margin: auto;}
 
 td {border-left: solid; border-color: white; width: 140px;
 }
+
+.container {width: auto;}
+
+a:link {color: white;}
+
+a:visited{color: white;}
